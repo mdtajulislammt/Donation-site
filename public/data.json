@@ -1,0 +1,138 @@
+[
+     {
+       "id": 1,
+       "Picture": "https://i.ibb.co/MDN8HRp/Health.png",
+       "Title": "Clean water for children",
+       "Category": "Health",
+       "Color_for_category_bg": "#0052ff26",
+       "Color_for_card_bg": "#0052ff26",
+       "Color_for_text": "#0052FF",
+       "button_background": "#0052FF",
+       "Description": "This is a description for Product 1.",
+       "Price": "$99.99"
+     },
+     {
+       "id": 2,
+       "Picture": "https://example.com/image2.jpg",
+       "Title": "Product 2",
+       "Category": "Clothing",
+       "Color_for_category_bg": "#45AAB8",
+       "Color_for_card_bg": "#F5F5F5",
+       "Color_for_text_and_button_background": "#666666",
+       "Description": "This is a description for Product 2.",
+       "Price": "$49.99"
+     },
+     {
+       "id": 3,
+       "Picture": "https://example.com/image3.jpg",
+       "Title": "Product 3",
+       "Category": "Home Decor",
+       "Color_for_category_bg": "#FFC300",
+       "Color_for_card_bg": "#FCFCFC",
+       "Color_for_text_and_button_background": "#999999",
+       "Description": "This is a description for Product 3.",
+       "Price": "$79.99"
+     },
+     {
+       "id": 4,
+       "Picture": "https://example.com/image4.jpg",
+       "Title": "Product 4",
+       "Category": "Books",
+       "Color_for_category_bg": "#FF5733",
+       "Color_for_card_bg": "#EDEDED",
+       "Color_for_text_and_button_background": "#333333",
+       "Description": "This is a description for Product 4.",
+       "Price": "$29.99"
+     },
+     {
+       "id": 5,
+       "Picture": "https://example.com/image5.jpg",
+       "Title": "Product 5",
+       "Category": "Electronics",
+       "Color_for_category_bg": "#45AAB8",
+       "Color_for_card_bg": "#F5F5F5",
+       "Color_for_text_and_button_background": "#666666",
+       "Description": "This is a description for Product 5.",
+       "Price": "$149.99"
+     },
+     {
+       "id": 6,
+       "Picture": "https://example.com/image6.jpg",
+       "Title": "Product 6",
+       "Category": "Clothing",
+       "Color_for_category_bg": "#FFC300",
+       "Color_for_card_bg": "#FCFCFC",
+       "Color_for_text_and_button_background": "#999999",
+       "Description": "This is a description for Product 6.",
+       "Price": "$39.99"
+     },
+     {
+       "id": 7,
+       "Picture": "https://example.com/image7.jpg",
+       "Title": "Product 7",
+       "Category": "Home Decor",
+       "Color_for_category_bg": "#FF5733",
+       "Color_for_card_bg": "#EDEDED",
+       "Color_for_text_and_button_background": "#333333",
+       "Description": "This is a description for Product 7.",
+       "Price": "$89.99"
+     },
+     {
+          "id": 8,
+          "Picture": "https://i.ibb.co/MDN8HRp/Health.png",
+          "Title": "Clean water for children",
+          "Category": "Health",
+          "Color_for_category_bg": "#0052ff26",
+          "Color_for_card_bg": "#0052ff26",
+          "Color_for_text": "#0052FF",
+          "button_background": "#0052FF",
+          "Description": "This is a description for Product 1.",
+          "Price": "$99.99"
+     },
+     {
+          "id": 9,
+          "Picture": "https://i.ibb.co/MDN8HRp/Health.png",
+          "Title": "Clean water for children",
+          "Category": "Health",
+          "Color_for_category_bg": "#0052ff26",
+          "Color_for_card_bg": "#0052ff26",
+          "Color_for_text": "#0052FF",
+          "button_background": "#0052FF",
+          "Description": "This is a description for Product 1.",
+          "Price": "$99.99"
+     },
+     {
+       "id": 10,
+       "Picture": "https://example.com/image10.jpg",
+       "Title": "Product 10",
+       "Category": "Clothing",
+       "Color_for_category_bg": "#FF5733",
+       "Color_for_card_bg": "#EDEDED",
+       "Color_for_text_and_button_background": "#333333",
+       "Description": "This is a description for Product 10.",
+       "Price": "$69.99"
+     },
+     {
+       "id": 11,
+       "Picture": "https://example.com/image11.jpg",
+       "Title": "Product 11",
+       "Category": "Home Decor",
+       "Color_for_category_bg": "#45AAB8",
+       "Color_for_card_bg": "#F5F5F5",
+       "Color_for_text_and_button_background": "#666666",
+       "Description": "This is a description for Product 11.",
+       "Price": "$59.99"
+     },
+     {
+       "id": 12,
+       "Picture": "https://example.com/image12.jpg",
+       "Title": "Product 12",
+       "Category": "Books",
+       "Color_for_category_bg": "#FFC300",
+       "Color_for_card_bg": "#FCFCFC",
+       "Color_for_text_and_button_background": "#999999",
+       "Description": "This is a description for Product 12.",
+       "Price": "$24.99"
+     }
+   ]
+   
