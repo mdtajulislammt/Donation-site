@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
      return (
-          <div className=" relative bg-[#ffffffed]  text-center lg:h-[85vh]  ">
+          <div className=" relative  text-center lg:h-[85vh]  ">
                <h1 className=" text-xl md:text-4xl lg:text-5xl font-bold pt-12 md:pt-44 lg:pt-52 mb-10 ">I Grow By Helping People In Need</h1>
                <div>
                     

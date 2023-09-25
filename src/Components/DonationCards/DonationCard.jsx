@@ -3,23 +3,23 @@ import { Link } from 'react-router-dom';
 
 
 const DonationCard = ({donationCard}) => {
-     const {id,Picture,Title,Category,Color_for_category_bg,Color_for_card_bg,Color_for_text,button_background,} = donationCard || {}
+     const {id,Picture,Title,Category,Color_for_category_bg,Color_for_card_bg,Color_for_text} = donationCard || {}
      return (
           <div>
               <Link to={`/donationCard/${id}`}>
                
-<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div style={{background:Color_for_card_bg}} className="max-w-sm border border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
     
-        <img className="rounded-t-md" src={Picture} alt="" />
+        <img className=" w-full rounded-t-md" src={Picture} alt="" />
     
     <div className="p-5">
-    <h4 className={`inline-flex items-center px-3 py-2 text-sm font-medium text-center text-
-     bg-[${button_background}] rounded-lg hover:bg-blue-800 `}>
+    <h4 style={{background:Color_for_category_bg, color:Color_for_text}} className="  font-medium inline-flex items-center px-3 py-2 text-sm font-medium text-center text-
+     rounded-lg  ">
            {Category}
             
         </h4>
 
-            <h5 className="mb-2 mt-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{Title}</h5>
+            <h5 style={{color:Color_for_text}} className="mb-2 mt-2 text-xl font-medium tracking-tight text-gray-900 dark:text-white">{Title}</h5>
        
         
        
