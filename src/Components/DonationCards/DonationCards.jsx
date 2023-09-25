@@ -11,9 +11,9 @@ const DonationCards = ({donationCards,search}) => {
                {
                     donationCards?.filter((value)=>{
 
-                         if(search== ""){
+                         if(search == ""){
                               return value;
-                         }else if(value?.Category.toLowerCase().includes(search.toLowerCase())){
+                         }else if (value?.Category.toLowerCase().includes(search.toLowerCase())){
                               return value ;
                          }
                     })

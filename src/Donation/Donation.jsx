@@ -9,7 +9,12 @@ const Donation = () => {
      const [isShow, setIsShow] = useState(false);
      useEffect(()=>{
           const donationItem = JSON.parse(localStorage.getItem('donation'));
-          setDonations(donationItem)
+          
+          if(donationItem){
+            setDonations(donationItem)   
+          }else{
+               setNoFound('No Data Found') 
+          }
          
      },[])
      const handleRemoveItem=()=>{
