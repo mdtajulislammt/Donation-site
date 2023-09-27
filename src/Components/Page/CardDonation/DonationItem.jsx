@@ -26,15 +26,15 @@ const DonationItem = ({donation}) => {
      }
 
      return (
-          <div className='mx-28'>
-              <div className="relative w-full h-[500px]  mx-auto mt-7">
+          <div className='mx-10 md:mx-16  lg:mx-28'>
+              <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px]  mx-auto mt-7">
                <img className=" h-full w-full object-cover rounded-md" src={Picture} alt="Random image"  />
-               <div className="absolute inset-0 h-20 mt-[420px]  bg-gray-700 opacity-50 rounded-b-md">
+               <div className="absolute inset-0 h-20 mt-[220px] md:mt-[320px] lg:mt-[420px]  bg-gray-700 opacity-50 rounded-b-md">
                </div>
                     <Link><button onClick={handleAddDonation} style={{background:Color_for_text}} className=' absolute p-2 px-4 text-lg font-semibold text-white rounded-lg -mt-16 ml-5  '>Donate ${Price}</button></Link>
                
                </div>
-               <h1 className=' text-4xl font-bold mt-10 mb-5'>{Title}</h1>
+               <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold mt-10 mb-5'>{Title}</h1>
                <p className=' text-lg text-justify font-normal mb-20'>{Description}</p>
           </div>
           

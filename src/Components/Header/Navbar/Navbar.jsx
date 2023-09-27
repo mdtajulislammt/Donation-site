@@ -22,7 +22,7 @@ const Navbar = () => {
               }>Statistics</NavLink></li>
       </ul>
     </div>
-    <img className="w-32 md:w-44 ml-32 md:ml-96 lg:ml-0" src="https://i.ibb.co/KD8M4qn/Logo.png" alt="" />
+    <img className="w-32 md:w-44 ml-24 md:ml-96 lg:ml-0" src="https://i.ibb.co/KD8M4qn/Logo.png" alt="" />
   </div>
   <div className="navbar-end hidden lg:flex">
     <ul className="flex items-center gap-6 font-bold">

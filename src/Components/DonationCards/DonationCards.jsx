@@ -7,7 +7,7 @@ const DonationCards = ({donationCards,search}) => {
 
     
      return (
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-10 px-12 md:px-24'>
+          <div className='  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-12 px-12 md:px-24'>
                {
                     donationCards?.filter((value)=>{
 

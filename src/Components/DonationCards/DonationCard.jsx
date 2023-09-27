@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const DonationCard = ({donationCard}) => {
      const {id,Picture,Title,Category,Color_for_category_bg,Color_for_card_bg,Color_for_text} = donationCard || {}
      return (
-          <div>
+          <div  >
               <Link to={`/donationCard/${id}`}>
                
-<div style={{background:Color_for_card_bg}} className="max-w-sm border border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700">
+<div style={{background:Color_for_card_bg}} className="max-w-sm border shadow-lg rounded-lg ">
     
         <img className=" w-full rounded-t-md" src={Picture} alt="" />
     
@@ -19,7 +19,7 @@ const DonationCard = ({donationCard}) => {
             
         </h4>
 
-            <h5 style={{color:Color_for_text}} className="mb-2 mt-2 text-xl font-medium tracking-tight text-gray-900 dark:text-white">{Title}</h5>
+            <h5 style={{color:Color_for_text}} className="mb-2 mt-2 text-xl font-medium  text-black ">{Title}</h5>
        
         
        

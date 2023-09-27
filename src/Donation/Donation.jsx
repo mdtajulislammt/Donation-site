@@ -25,7 +25,7 @@ const Donation = () => {
      }
      
      return (
-          <div className="mx-24 my-10">
+          <div className=" mx-14 md:mx-24 lg:mx-24 my-10">
              
              {noFound ? <div className="h-[80vh] flex justify-center items-center text-center">
                     <div>
@@ -54,7 +54,7 @@ const Donation = () => {
                donations?.slice(0,4).map(donate=><DonateCard key={donate.id} donate={donate}></DonateCard>)}
 
                </div>
-               {donations?.length > 4 &&  <button onClick={()=>setIsShow(!isShow)} className=" px-10 mt-7 bg-red-500 hover:bg-red-400 block mx-auto rounded-md p-2 mb-6 font-semibold text-white hover:text-black">{isShow ? "See Less": "See More"}</button>}
+               {donations?.length >= 4 &&  <button onClick={()=>setIsShow(!isShow)} className=" px-10 mt-7 bg-red-500 hover:bg-red-400 block mx-auto rounded-md p-2 mb-6 font-semibold text-white hover:text-black">{isShow ? "See Less": "See More"}</button>}
                </div> }               
           </div>
      );
